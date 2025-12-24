@@ -1,9 +1,9 @@
 export const siteConfig = {
   header: {
     logo: {
-      letter: "L",
-      text: "Lawfor",
-      letterBgColor: "amber-600",
+      letter: "A",
+      text: "Advogancio",
+      letterBgColor: "blue-800", // Adapted from brand color
       letterTextColor: "white",
     },
     navigation: {
@@ -28,14 +28,14 @@ export const siteConfig = {
     },
   },
   hero: {
-    badge: "Fundado em 1980",
+    badge: "Sua Causa, Minha Prioridade", // Niche-specific badge
     title: {
-      line1: "Excelência em",
-      line2: "Prática Jurídica",
-      line2Color: "amber-500",
+      line1: "Advocacia com", // Niche-specific title, personal tone
+      line2: "Agilidade e Dedicação", // Incorporating differential
+      line2Color: "blue-600", // Adapted from brand color
     },
     description:
-      "Serviços jurídicos de excelência adaptados às necessidades únicas de cada cliente. Representação estratégica com décadas de experiência e resultados comprovados.",
+      "Como Advogado, meu compromisso é oferecer soluções jurídicas eficientes com **agilidade no atendimento**, garantindo que seus direitos sejam protegidos e suas questões resolvidas com a atenção que merecem. Minha abordagem é focada no cliente, com comunicação clara e estratégica e a expertise necessária.", // Personal tone, differential integrated
     buttons: [
       {
         label: "Agendar Consulta",
@@ -51,136 +51,141 @@ export const siteConfig = {
     ],
     stats: [
       {
-        number: "40+",
+        number: "20+", // Adjusted for a professional
         label: "Anos de Experiência",
       },
       {
-        number: "500+",
-        label: "Casos Resolvidos",
+        number: "300+", // Adjusted for a professional
+        label: "Casos de Sucesso",
       },
       {
-        number: "98%",
-        label: "Taxa de Sucesso",
+        number: "95%", // Adjusted for a professional
+        label: "Satisfação do Cliente",
       },
     ],
     image: {
-      src: "",
-      alt: "Escritório de advocacia profissional",
+      src: "https://www.psicologodiegovigato.com.br/01.png", // Mapped from PHOTO URL
+      alt: "Advogado Advogancio Labubonico profissional", // Niche-specific alt text
     },
   },
   services: {
-    badge: "Áreas de Atuação",
-    title: "Serviços Jurídicos Completos",
+    badge: "Minhas Áreas de Atuação", // Personal tone
+    title: "Soluções Jurídicas Abrangentes", // Niche-specific title
     description:
-      "Expertise em múltiplas áreas de atuação para todas as suas necessidades jurídicas. Soluções personalizadas com abordagem estratégica e resultados eficazes.",
+      "Ofereço um leque completo de serviços jurídicos para atender às suas necessidades, sempre com foco em resultados rápidos e eficazes, pautados pela ética e **agilidade** que você busca.", // Personal tone, differential integrated
     items: [
+      // Invented 4 realistic, technical services for Advocacia with icons
       {
-        title: "Direito Empresarial",
+        title: "Direito Civil",
         description:
-          "Assessoria jurídica completa para empresas. Da constituição até fusões e aquisições, protegendo seus interesses empresariais.",
+          "Representação em contratos, indenizações, responsabilidade civil e disputas de propriedade, garantindo seus direitos com expertise.",
+        icon: "Scale", // Lucide-react icon
       },
       {
-        title: "Litígios e Resolução de Disputas",
+        title: "Direito de Família e Sucessões",
         description:
-          "Representação experiente em disputas comerciais, litígios contratuais e resolução alternativa de conflitos.",
+          "Suporte sensível e eficiente em divórcios, pensão alimentícia, guarda de filhos, inventários e planejamento sucessório.",
+        icon: "HeartCrack", // Lucide-react icon
       },
       {
-        title: "Direito Imobiliário",
+        title: "Direito do Consumidor",
         description:
-          "Suporte jurídico completo para transações imobiliárias, zoneamento e disputas de propriedade.",
+          "Defesa dos seus direitos como consumidor em casos de produtos ou serviços defeituosos, cobranças indevidas e contratos abusivos.",
+        icon: "ShoppingBag", // Lucide-react icon
       },
       {
-        title: "Direito de Família",
+        title: "Direito Trabalhista",
         description:
-          "Representação estratégica em divórcios, custódia, acordos pré-nupciais e planejamento patrimonial.",
+          "Assessoria para empregados e empregadores em questões como demissão, horas extras, rescisões e direitos trabalhistas.",
+        icon: "Briefcase", // Lucide-react icon
       },
     ],
   },
   whyChooseUs: {
-    badge: "Por Que Nos Escolher",
-    title: "Representação Jurídica Confiável",
+    badge: "Por Que Me Escolher", // Personal tone
+    title: "Representação Legal Confiável e Ágil", // Incorporating differential
     description:
-      "Compromisso com excelência, integridade e sucesso do cliente. Nossa dedicação à excelência jurídica é o fundamento de cada caso que representamos.",
+      "Meu compromisso é com a excelência, integridade e o sucesso dos meus clientes. A dedicação à qualidade jurídica e à **agilidade no atendimento** são os pilares de cada caso que represento.", // Personal tone, differential integrated
     values: [
       {
-        title: "Histórico Comprovado",
+        title: "Experiência Comprovada",
         description:
-          "Mais de quatro décadas de representação bem-sucedida com resultados favoráveis em diversos assuntos jurídicos.",
+          "Anos de representação bem-sucedida, com resultados favoráveis em diversas áreas do direito, construindo um histórico de confiança.",
       },
       {
-        title: "Abordagem Centrada no Cliente",
+        title: "Atendimento Personalizado",
         description:
-          "Estratégia jurídica adaptada às suas necessidades e objetivos específicos.",
+          "Minha estratégia jurídica é adaptada às suas necessidades e objetivos específicos, com foco total na sua individualidade e sucesso.",
       },
       {
-        title: "Equipe Experiente",
+        title: "Agilidade e Eficiência",
         description:
-          "Advogados com ampla experiência e conhecimento especializado para a mais alta qualidade de representação.",
+          "Priorizo a **agilidade no atendimento** e a resolução eficiente do seu caso, sem comprometer a qualidade ou a atenção aos detalhes.", // Differential integrated
       },
       {
         title: "Comunicação Transparente",
         description:
-          "Comunicação clara e honesta com atualizações regulares durante todo o processo.",
+          "Mantenho você informado em cada etapa do processo, com comunicação clara e honesta, para sua total tranquilidade e confiança.",
       },
     ],
   },
   process: {
-    badge: "Nosso Processo",
-    title: "Como Trabalhamos",
+    badge: "Meu Processo de Atuação", // Personal tone
+    title: "Como Eu Trabalho", // Personal tone
     description:
-      "Uma abordagem estruturada e meticulosa para alcançar seus objetivos jurídicos com clareza, eficiência e resultados excepcionais.",
+      "Minha abordagem estruturada e meticulosa visa alcançar seus objetivos jurídicos com clareza, eficiência e resultados excepcionais, sempre com a **agilidade** que você espera.", // Personal tone, differential integrated
     steps: [
       {
         number: "01",
         title: "Consulta Inicial",
         description:
-          "Consulta abrangente para entender suas necessidades jurídicas e objetivos.",
+          "Realizo uma consulta abrangente para compreender suas necessidades jurídicas, objetivos e expectativas, estabelecendo as bases do trabalho.",
       },
       {
         number: "02",
         title: "Análise do Caso",
         description:
-          "Pesquisa e análise minuciosas para desenvolver uma estratégia adaptada à sua situação.",
+          "Conduzo pesquisa e análise minuciosas das informações e documentos para desenvolver uma estratégia jurídica personalizada para sua situação.",
       },
       {
         number: "03",
         title: "Estratégia Jurídica",
         description:
-          "Desenvolvimento e apresentação de estratégia clara com caminho e resultados esperados.",
+          "Desenvolvo e apresento uma estratégia clara, com o caminho a seguir, as etapas do processo e os resultados esperados, buscando sempre a otimização do tempo.",
       },
       {
         number: "04",
-        title: "Representação",
+        title: "Representação Dedicada",
         description:
-          "Representação dedicada durante todo o processo, mantendo você informado em cada etapa.",
+          "Ofereço representação dedicada durante todo o processo, mantendo você informado e participativo em cada etapa, com total transparência.",
       },
     ],
   },
   consultation: {
     image: {
-      src: "",
-      alt: "Consulta jurídica profissional",
+      src: "https://www.psicologodiegovigato.com.br/01.png", // Mapped from PHOTO URL
+      alt: "Advogado Advogancio Labubonico em consulta jurídica profissional",
       overlay: {
         badge: "Consulta Profissional",
-        title: "Sua jornada jurídica começa aqui",
+        title: "Sua jornada jurídica começa com agilidade", // Integrating differential
       },
     },
     badge: "Consulta Inicial",
     title: "Agende Sua Consulta",
     description:
-      "Consulta abrangente e confidencial para discutir sua situação jurídica e definir o melhor caminho estratégico para o seu caso.",
+      "Uma consulta abrangente e confidencial para discutirmos sua situação jurídica e definirmos o melhor caminho estratégico para o seu caso, com a **agilidade** que faz a diferença.", // Personal tone, differential integrated
     features: [
       {
         title: "Consulta Inicial Gratuita",
-        description: "Primeiros 30 minutos sem custo",
+        description: "Primeiros 30 minutos sem custo para avaliação do caso",
       },
       {
         title: "Orientação Especializada",
-        description: "Orientação profissional de advogados experientes",
+        description: "Orientação profissional de um advogado experiente e focado.",
       },
       {
         title: "Honorários Transparentes",
-        description: "Discussão clara de honorários e opções de pagamento",
+        description: "Discussão clara de honorários e opções de pagamento adaptadas.",
       },
     ],
     button: {
@@ -197,20 +202,21 @@ export const siteConfig = {
       href: "#blog",
     },
     posts: [
+      // Generated 3 relevant blog post titles for Advocacia
       {
         date: "29 de Janeiro, 2024",
-        title: "Mudanças Recentes nas Regulamentações do Direito Empresarial",
-        category: "Direito Empresarial",
+        title: "Entendendo Seus Direitos no Divórcio: Um Guia Rápido",
+        category: "Direito de Família",
       },
       {
         date: "26 de Janeiro, 2024",
-        title: "Entendendo os Requisitos de Transações Imobiliárias",
-        category: "Direito Imobiliário",
+        title: "Como a Agilidade no Atendimento Pode Decidir Seu Caso",
+        category: "Atendimento Jurídico",
       },
       {
         date: "22 de Janeiro, 2024",
-        title: "Tendências e Desenvolvimentos da Indústria Jurídica",
-        category: "Notícias do Setor",
+        title: "Protegendo Seus Bens: Dicas de Planejamento Sucessório",
+        category: "Direito Civil",
       },
     ],
   },
@@ -218,40 +224,41 @@ export const siteConfig = {
     badge: "Perguntas Frequentes",
     title: "Perguntas Comuns",
     description:
-      "Encontre respostas para perguntas frequentes sobre nossos serviços jurídicos, processos e como podemos ajudá-lo a alcançar seus objetivos legais.",
+      "Encontre respostas para perguntas frequentes sobre meus serviços jurídicos, o processo de atendimento e como posso ajudá-lo a alcançar seus objetivos legais com **agilidade**.", // Personal tone, differential integrated
     items: [
+      // Generated 4 relevant questions and answers for Advocacia
       {
-        question: "Como o escritório trata honorários e taxas?",
+        question: "Como funciona a consulta inicial e qual o seu custo?",
         answer:
-          "Nossa estrutura de honorários varia conforme a natureza do caso. Na consulta inicial, discutimos se trabalhamos por hora, taxa fixa ou honorários de sucesso. Transparência total, sem custos ocultos.",
+          "Minha primeira consulta é focada em entender sua necessidade jurídica. Avaliamos a complexidade e apresento as possíveis soluções. A consulta inicial tem um valor simbólico, que será revertido em desconto caso o contrato de serviços seja fechado.",
       },
       {
-        question: "Como posso enviar uma aplicação ao tribunal de proteção?",
+        question: "Quais documentos preciso para iniciar um processo?",
         answer:
-          "Nossa equipe guia você através de todo o processo, desde o preenchimento dos formulários até a documentação necessária, garantindo que todos os requisitos sejam atendidos.",
+          "Os documentos variam conforme a natureza do caso. Em nossa consulta inicial, fornecerei uma lista detalhada dos documentos essenciais. Trazer os documentos básicos como RG, CPF e comprovante de residência já ajuda a agilizar o processo.",
       },
       {
-        question: "Que tipos de questões jurídicas o escritório trata?",
+        question: "Como são calculados os honorários advocatícios?",
         answer:
-          "Tratamos direito empresarial, litígios, transações imobiliárias, direito de família e planejamento patrimonial, atendendo diversas necessidades jurídicas.",
+          "Os honorários são estabelecidos de forma transparente e clara, podendo ser por hora, por etapa processual, ou um percentual sobre o êxito da causa, dependendo do tipo e complexidade do seu caso. Tudo será discutido e acordado previamente.",
       },
       {
-        question: "Qual é o prazo típico para resolver uma questão jurídica?",
+        question: "Qual o prazo médio para a resolução de um caso?",
         answer:
-          "O prazo varia conforme a complexidade do caso e cronogramas do tribunal. Na consulta, fornecemos um prazo estimado baseado em suas circunstâncias.",
+          "A duração de um processo judicial pode variar bastante, dependendo da área do direito, da complexidade e da comarca. Contudo, minha prioridade é buscar a resolução mais **ágil e eficiente** possível, mantendo-o sempre atualizado sobre o andamento.",
       },
     ],
   },
   footer: {
     logo: {
-      letter: "L",
-      text: "Lawfor",
+      letter: "A",
+      text: "Advogancio",
     },
     description:
-      "Serviços jurídicos excepcionais com integridade e dedicação ao sucesso do cliente.",
+      "Serviços jurídicos excepcionais com integridade e dedicação ao sucesso do cliente, focados na **agilidade e eficiência**.", // Differential integrated
     contact: {
-      phone: "(11) 1234-5678",
-      email: "contato@lawfor.com.br",
+      phone: "(11) 98765-4321", // Generated phone number
+      email: "contato@advoganciolabubonico.com.br", // Generated email
     },
     quickLinks: {
       title: "Links Rápidos",
@@ -274,7 +281,7 @@ export const siteConfig = {
         },
       ],
     },
-    copyright: "© 2024 Lawfor. Todos os direitos reservados.",
+    copyright: "© 2024 Advogancio Labubonico. Todos os direitos reservados.", // Updated name
     legalLinks: [
       {
         label: "Política de Privacidade",
@@ -290,4 +297,4 @@ export const siteConfig = {
       },
     ],
   },
-}
+};
