@@ -1,9 +1,9 @@
 export const siteConfig = {
   header: {
     logo: {
-      letter: "A",
-      text: "Advogancio",
-      letterBgColor: "blue-800", // Adapted from brand color
+      letter: "A", // Initial of "Advogancio"
+      text: "Advogacio", // Shortened name for brand identity
+      letterBgColor: "indigo-800", // Professional brand color
       letterTextColor: "white",
     },
     navigation: {
@@ -28,20 +28,20 @@ export const siteConfig = {
     },
   },
   hero: {
-    badge: "Sua Causa, Minha Prioridade", // Niche-specific badge
+    badge: "Advocacia Especializada",
     title: {
-      line1: "Advocacia com", // Niche-specific title, personal tone
-      line2: "Agilidade e Dedicação", // Incorporating differential
-      line2Color: "blue-600", // Adapted from brand color
+      line1: "Advogancio Mataeleao",
+      line2: "Agilidade Jurídica ao Seu Lado", // Integrating differential
+      line2Color: "indigo-700", // Using a professional color
     },
     description:
-      "Como Advogado, meu compromisso é oferecer soluções jurídicas eficientes com **agilidade no atendimento**, garantindo que seus direitos sejam protegidos e suas questões resolvidas com a atenção que merecem. Minha abordagem é focada no cliente, com comunicação clara e estratégica e a expertise necessária.", // Personal tone, differential integrated
+      "Meu compromisso é com a **agilidade no atendimento** e a excelência jurídica. Ofereço soluções eficazes e personalizadas para suas demandas, garantindo suporte e representação dedicada em cada etapa do processo.", // Personalized tone, integrating differential
     buttons: [
       {
         label: "Agendar Consulta",
         href: "#contato",
         variant: "primary",
-        icon: "ArrowRight",
+        icon: "ArrowRight", // Lucide-react icon
       },
       {
         label: "Saiba Mais",
@@ -51,147 +51,150 @@ export const siteConfig = {
     ],
     stats: [
       {
-        number: "20+", // Adjusted for a professional
+        number: "10+", // Realistic number for an individual professional
         label: "Anos de Experiência",
       },
       {
-        number: "300+", // Adjusted for a professional
-        label: "Casos de Sucesso",
+        number: "200+", // Realistic number for an individual professional
+        label: "Casos Atendidos",
       },
       {
-        number: "95%", // Adjusted for a professional
+        number: "95%", // Realistic number for an individual professional
         label: "Satisfação do Cliente",
       },
     ],
     image: {
       src: "https://www.psicologodiegovigato.com.br/01.png", // Mapped from PHOTO URL
-      alt: "Advogado Advogancio Labubonico profissional", // Niche-specific alt text
+      alt: "Advogado Advogancio Mataeleao em seu escritório profissional",
     },
   },
   services: {
-    badge: "Minhas Áreas de Atuação", // Personal tone
-    title: "Soluções Jurídicas Abrangentes", // Niche-specific title
+    badge: "Minhas Áreas de Atuação",
+    title: "Serviços Jurídicos Comigo", // Personalized tone
     description:
-      "Ofereço um leque completo de serviços jurídicos para atender às suas necessidades, sempre com foco em resultados rápidos e eficazes, pautados pela ética e **agilidade** que você busca.", // Personal tone, differential integrated
+      "Ofereço consultoria e representação jurídica abrangente, com foco na eficiência e na busca pelos melhores resultados para meus clientes. Minha atuação é pautada pela ética e pela **agilidade**.", // Personalized tone, integrating differential
     items: [
-      // Invented 4 realistic, technical services for Advocacia with icons
       {
-        title: "Direito Civil",
+        title: "Direito Civil e Contratual",
         description:
-          "Representação em contratos, indenizações, responsabilidade civil e disputas de propriedade, garantindo seus direitos com expertise.",
-        icon: "Scale", // Lucide-react icon
+          "Assessoria completa em elaboração e revisão de contratos, responsabilidade civil, indenizações e disputas diversas, garantindo seus direitos.",
+        icon: "ClipboardList", // Lucide-react icon
       },
       {
         title: "Direito de Família e Sucessões",
         description:
-          "Suporte sensível e eficiente em divórcios, pensão alimentícia, guarda de filhos, inventários e planejamento sucessório.",
-        icon: "HeartCrack", // Lucide-react icon
+          "Oriento em processos de divórcio, guarda, pensão alimentícia, inventários e planejamento sucessório, com a sensibilidade e atenção que o tema exige.",
+        icon: "HeartHandshake", // Lucide-react icon
       },
       {
         title: "Direito do Consumidor",
         description:
-          "Defesa dos seus direitos como consumidor em casos de produtos ou serviços defeituosos, cobranças indevidas e contratos abusivos.",
+          "Defesa dos direitos do consumidor em situações de produtos defeituosos, serviços não prestados, cobranças indevidas e abusos praticados por fornecedores.",
         icon: "ShoppingBag", // Lucide-react icon
       },
       {
-        title: "Direito Trabalhista",
+        title: "Assessoria para PMEs",
         description:
-          "Assessoria para empregados e empregadores em questões como demissão, horas extras, rescisões e direitos trabalhistas.",
+          "Suporte jurídico especializado para pequenas e médias empresas, desde a constituição, revisão de contratos comerciais até questões de conformidade legal.",
         icon: "Briefcase", // Lucide-react icon
       },
     ],
   },
   whyChooseUs: {
-    badge: "Por Que Me Escolher", // Personal tone
-    title: "Representação Legal Confiável e Ágil", // Incorporating differential
+    badge: "Por Que Me Escolher", // Personalized tone
+    title: "Minha Abordagem Jurídica Confiável", // Personalized tone
     description:
-      "Meu compromisso é com a excelência, integridade e o sucesso dos meus clientes. A dedicação à qualidade jurídica e à **agilidade no atendimento** são os pilares de cada caso que represento.", // Personal tone, differential integrated
+      "Meu compromisso com a ética, a transparência e a excelência é o fundamento de cada caso que represento. Sua tranquilidade é minha prioridade.", // Personalized tone
     values: [
       {
-        title: "Experiência Comprovada",
+        title: "Agilidade e Eficiência", // Integrating differential
         description:
-          "Anos de representação bem-sucedida, com resultados favoráveis em diversas áreas do direito, construindo um histórico de confiança.",
+          "Foco na resolução rápida e eficaz das suas demandas jurídicas, otimizando o tempo e minimizando o estresse.",
+        icon: "Lightning", // Lucide-react icon
       },
       {
         title: "Atendimento Personalizado",
         description:
-          "Minha estratégia jurídica é adaptada às suas necessidades e objetivos específicos, com foco total na sua individualidade e sucesso.",
+          "Cada cliente e caso são únicos. Ofereço atenção individualizada, entendendo profundamente suas necessidades e objetivos.",
+        icon: "Users", // Lucide-react icon
       },
       {
-        title: "Agilidade e Eficiência",
+        title: "Experiência e Conhecimento",
         description:
-          "Priorizo a **agilidade no atendimento** e a resolução eficiente do seu caso, sem comprometer a qualidade ou a atenção aos detalhes.", // Differential integrated
+          "Minha experiência e atualização constante garantem um aconselhamento jurídico sólido e a mais alta qualidade de representação.",
+        icon: "Scale", // Lucide-react icon
       },
       {
         title: "Comunicação Transparente",
         description:
-          "Mantenho você informado em cada etapa do processo, com comunicação clara e honesta, para sua total tranquilidade e confiança.",
+          "Mantenho você sempre informado(a), com comunicação clara e honesta em todas as etapas do processo jurídico.",
+        icon: "MessageCircle", // Lucide-react icon
       },
     ],
   },
   process: {
-    badge: "Meu Processo de Atuação", // Personal tone
-    title: "Como Eu Trabalho", // Personal tone
+    badge: "Meu Processo", // Personalized tone
+    title: "Como Trabalho", // Personalized tone
     description:
-      "Minha abordagem estruturada e meticulosa visa alcançar seus objetivos jurídicos com clareza, eficiência e resultados excepcionais, sempre com a **agilidade** que você espera.", // Personal tone, differential integrated
+      "Uma abordagem estruturada e focada para alcançar seus objetivos jurídicos com clareza, eficiência e resultados excepcionais.", // Personalized tone
     steps: [
       {
         number: "01",
         title: "Consulta Inicial",
         description:
-          "Realizo uma consulta abrangente para compreender suas necessidades jurídicas, objetivos e expectativas, estabelecendo as bases do trabalho.",
+          "Uma conversa abrangente para entender suas necessidades jurídicas e estabelecer os primeiros passos.",
       },
       {
         number: "02",
-        title: "Análise do Caso",
+        title: "Análise e Estratégia",
         description:
-          "Conduzo pesquisa e análise minuciosas das informações e documentos para desenvolver uma estratégia jurídica personalizada para sua situação.",
+          "Pesquisa e análise minuciosas para desenvolver a estratégia jurídica mais adequada ao seu caso.",
       },
       {
         number: "03",
-        title: "Estratégia Jurídica",
+        title: "Apresentação da Solução",
         description:
-          "Desenvolvo e apresento uma estratégia clara, com o caminho a seguir, as etapas do processo e os resultados esperados, buscando sempre a otimização do tempo.",
+          "Desenvolvimento e apresentação de uma estratégia clara, com os caminhos e resultados esperados.",
       },
       {
         number: "04",
-        title: "Representação Dedicada",
+        title: "Representação e Acompanhamento",
         description:
-          "Ofereço representação dedicada durante todo o processo, mantendo você informado e participativo em cada etapa, com total transparência.",
+          "Representação dedicada durante todo o processo, mantendo você informado(a) em cada etapa até a resolução.",
       },
     ],
   },
   consultation: {
     image: {
       src: "https://www.psicologodiegovigato.com.br/01.png", // Mapped from PHOTO URL
-      alt: "Advogado Advogancio Labubonico em consulta jurídica profissional",
+      alt: "Advogado Advogancio Mataeleao em consulta",
       overlay: {
         badge: "Consulta Profissional",
-        title: "Sua jornada jurídica começa com agilidade", // Integrating differential
+        title: "Sua jornada jurídica começa comigo", // Personalized tone
       },
     },
-    badge: "Consulta Inicial",
+    badge: "Consulta Jurídica",
     title: "Agende Sua Consulta",
     description:
-      "Uma consulta abrangente e confidencial para discutirmos sua situação jurídica e definirmos o melhor caminho estratégico para o seu caso, com a **agilidade** que faz a diferença.", // Personal tone, differential integrated
+      "Uma consulta abrangente e confidencial para discutir sua situação jurídica e definir o melhor caminho estratégico para o seu caso. Priorizo a **agilidade no agendamento** para a sua conveniência.", // Personalized tone, integrating differential
     features: [
       {
-        title: "Consulta Inicial Gratuita",
-        description: "Primeiros 30 minutos sem custo para avaliação do caso",
-      },
-      {
         title: "Orientação Especializada",
-        description: "Orientação profissional de um advogado experiente e focado.",
+        description: "Conselho profissional de um advogado experiente e dedicado.",
       },
       {
-        title: "Honorários Transparentes",
-        description: "Discussão clara de honorários e opções de pagamento adaptadas.",
+        title: "Agendamento Facilitado", // Integrating differential
+        description: "Rapidez e flexibilidade para marcar seu horário.",
+      },
+      {
+        title: "Transparência de Honorários",
+        description: "Discussão clara de custos e opções de pagamento desde o início.",
       },
     ],
     button: {
       label: "Agendar Consulta",
       href: "#contato",
-      icon: "Calendar",
+      icon: "Calendar", // Lucide-react icon
     },
   },
   blog: {
@@ -202,63 +205,62 @@ export const siteConfig = {
       href: "#blog",
     },
     posts: [
-      // Generated 3 relevant blog post titles for Advocacia
       {
         date: "29 de Janeiro, 2024",
-        title: "Entendendo Seus Direitos no Divórcio: Um Guia Rápido",
-        category: "Direito de Família",
+        title: "O que você precisa saber sobre a Nova Lei de Proteção de Dados (LGPD)",
+        category: "Direito Digital",
       },
       {
         date: "26 de Janeiro, 2024",
-        title: "Como a Agilidade no Atendimento Pode Decidir Seu Caso",
-        category: "Atendimento Jurídico",
+        title: "Guia Completo para Acordos de Divórcio Amigável no Brasil",
+        category: "Direito de Família",
       },
       {
         date: "22 de Janeiro, 2024",
-        title: "Protegendo Seus Bens: Dicas de Planejamento Sucessório",
-        category: "Direito Civil",
+        title: "Direitos do Consumidor: Como agir em caso de produtos com defeito",
+        category: "Direito do Consumidor",
       },
     ],
   },
   faq: {
     badge: "Perguntas Frequentes",
-    title: "Perguntas Comuns",
+    title: "Dúvidas Comuns Respondidas",
     description:
-      "Encontre respostas para perguntas frequentes sobre meus serviços jurídicos, o processo de atendimento e como posso ajudá-lo a alcançar seus objetivos legais com **agilidade**.", // Personal tone, differential integrated
+      "Encontre respostas para as perguntas mais frequentes sobre meus serviços jurídicos, processos e como posso ajudá-lo(a) de forma **ágil e eficiente**.", // Personalized tone, integrating differential
     items: [
-      // Generated 4 relevant questions and answers for Advocacia
       {
-        question: "Como funciona a consulta inicial e qual o seu custo?",
+        question: "Qual o seu principal diferencial como advogado?",
         answer:
-          "Minha primeira consulta é focada em entender sua necessidade jurídica. Avaliamos a complexidade e apresento as possíveis soluções. A consulta inicial tem um valor simbólico, que será revertido em desconto caso o contrato de serviços seja fechado.",
+          "Meu principal diferencial é a **agilidade no atendimento**. Prezo por respostas rápidas, processos eficientes e soluções que atendam às necessidades de tempo dos meus clientes, sem perder a qualidade.",
       },
       {
-        question: "Quais documentos preciso para iniciar um processo?",
+        question: "Em quais áreas do direito você atua?",
         answer:
-          "Os documentos variam conforme a natureza do caso. Em nossa consulta inicial, fornecerei uma lista detalhada dos documentos essenciais. Trazer os documentos básicos como RG, CPF e comprovante de residência já ajuda a agilizar o processo.",
+          "Atuo predominantemente em Direito Civil e Contratual, Direito de Família e Sucessões, Direito do Consumidor e assessoria jurídica para pequenas e médias empresas.",
       },
       {
-        question: "Como são calculados os honorários advocatícios?",
+        question: "Como funciona a primeira consulta e qual o custo?",
         answer:
-          "Os honorários são estabelecidos de forma transparente e clara, podendo ser por hora, por etapa processual, ou um percentual sobre o êxito da causa, dependendo do tipo e complexidade do seu caso. Tudo será discutido e acordado previamente.",
+          "A primeira consulta serve para entender a fundo o seu caso. Ela pode ser agendada de forma **ágil** e os honorários são discutidos com total transparência desde o início, podendo haver uma cortesia para a análise inicial.",
       },
       {
-        question: "Qual o prazo médio para a resolução de um caso?",
+        question: "Como você mantém seus clientes informados sobre o progresso do caso?",
         answer:
-          "A duração de um processo judicial pode variar bastante, dependendo da área do direito, da complexidade e da comarca. Contudo, minha prioridade é buscar a resolução mais **ágil e eficiente** possível, mantendo-o sempre atualizado sobre o andamento.",
+          "A comunicação é fundamental. Mantenho meus clientes constantemente atualizados sobre o andamento do processo por meio de e-mail, telefone e reuniões periódicas, sempre de forma clara e acessível.",
       },
     ],
   },
   footer: {
     logo: {
       letter: "A",
-      text: "Advogancio",
+      text: "Advogacio",
     },
     description:
-      "Serviços jurídicos excepcionais com integridade e dedicação ao sucesso do cliente, focados na **agilidade e eficiência**.", // Differential integrated
+      "Oferecendo serviços jurídicos excepcionais com integridade e dedicação ao sucesso do cliente.", // Personalized tone
     contact: {
-      phone: "(11) 98765-4321", // Generated phone number
-      email: "contato@advoganciolabubonico.com.br", // Generated email
+      phone: "(11) 98765-4321", // Generated plausible phone number
+      email: "contato@advoganciomataeleao.com.br", // Generated plausible email
+      whatsapp: "5511987654321", // WhatsApp format
     },
     quickLinks: {
       title: "Links Rápidos",
@@ -281,7 +283,7 @@ export const siteConfig = {
         },
       ],
     },
-    copyright: "© 2024 Advogancio Labubonico. Todos os direitos reservados.", // Updated name
+    copyright: "© 2024 Advogancio Mataeleao. Todos os direitos reservados.", // Updated copyright name
     legalLinks: [
       {
         label: "Política de Privacidade",
