@@ -1,12 +1,9 @@
 export const siteConfig = {
   header: {
     logo: {
-      // businessName: "Advogados bons" -> "A" for Advogados
-      letter: "A",
-      // businessName: "Advogados bons"
-      text: "Advogados Bons",
-      // No specific brandColor provided, using a professional default
-      letterBgColor: "blue-800",
+      letter: "A", // Initial of "Advogancio"
+      text: "Advogacio", // Shortened name for brand identity
+      letterBgColor: "indigo-800", // Professional brand color
       letterTextColor: "white",
     },
     navigation: {
@@ -31,24 +28,20 @@ export const siteConfig = {
     },
   },
   hero: {
-    // Generated based on differential
-    badge: "Especialistas Exclusivos em Direito Trabalhista",
+    badge: "Advocacia Especializada",
     title: {
-      // businessName: "Advogados bons"
-      line1: "Advogados Bons:",
-      // differential: "trabalhamos APENAS com direito trabalhista"
-      line2: "Sua Força no Direito do Trabalho",
-      line2Color: "amber-500",
+      line1: "Advogancio Mataeleao",
+      line2: "Agilidade Jurídica ao Seu Lado", // Integrating differential
+      line2Color: "indigo-700", // Using a professional color
     },
-    // profileType: empresa, businessArea: advocacia, differential: trabalhamos APENAS com direito trabalhista
     description:
-      "Na Advogados Bons, somos especialistas e dedicamos nossa expertise APENAS ao direito trabalhista. Nossa equipe oferece assessoria jurídica estratégica e representação eficaz para empresas e trabalhadores, garantindo a defesa de seus direitos com rigor e compromisso inabalável.",
+      "Meu compromisso é com a **agilidade no atendimento** e a excelência jurídica. Ofereço soluções eficazes e personalizadas para suas demandas, garantindo suporte e representação dedicada em cada etapa do processo.", // Personalized tone, integrating differential
     buttons: [
       {
         label: "Agendar Consulta",
         href: "#contato",
         variant: "primary",
-        icon: "ArrowRight",
+        icon: "ArrowRight", // Lucide-react icon
       },
       {
         label: "Saiba Mais",
@@ -57,232 +50,217 @@ export const siteConfig = {
       },
     ],
     stats: [
-      // Invented realistic stats for a labor law firm
       {
-        number: "15+",
+        number: "10+", // Realistic number for an individual professional
         label: "Anos de Experiência",
       },
       {
-        number: "800+",
-        label: "Casos Trabalhistas Resolvidos",
+        number: "200+", // Realistic number for an individual professional
+        label: "Casos Atendidos",
       },
       {
-        number: "95%",
-        label: "Taxa de Sucesso",
+        number: "95%", // Realistic number for an individual professional
+        label: "Satisfação do Cliente",
       },
     ],
     image: {
-      // PHOTO URL from JSON
-      src: "https://nulttixasqcrugsbpduk.supabase.co/storage/v1/object/public/fotos/1766096924294-30wkg2.svg",
-      // Adapted alt text
-      alt: "Equipe de advogados especialistas em direito trabalhista",
+      src: "https://www.psicologodiegovigato.com.br/01.png", // Mapped from PHOTO URL
+      alt: "Advogado Advogancio Mataeleao em seu escritório profissional",
     },
   },
   services: {
-    badge: "Nossas Especialidades",
-    // differential: "trabalhamos APENAS com direito trabalhista"
-    title: "Serviços Exclusivos em Direito Trabalhista",
-    // profileType: empresa, businessArea: advocacia, differential: trabalhamos APENAS com direito trabalhista
+    badge: "Minhas Áreas de Atuação",
+    title: "Serviços Jurídicos Comigo", // Personalized tone
     description:
-      "Com foco total no Direito Trabalhista, oferecemos uma gama completa de serviços jurídicos, desde a consultoria preventiva até a representação em litígios complexos. Nossa equipe está preparada para defender seus interesses com o mais alto nível de dedicação e conhecimento técnico.",
+      "Ofereço consultoria e representação jurídica abrangente, com foco na eficiência e na busca pelos melhores resultados para meus clientes. Minha atuação é pautada pela ética e pela **agilidade**.", // Personalized tone, integrating differential
     items: [
-      // Invented 4 realistic, technical services for "Direito Trabalhista" with Lucide-react icons
       {
-        title: "Reclamações Trabalhistas",
+        title: "Direito Civil e Contratual",
         description:
-          "Representação de trabalhadores em ações judiciais para reivindicação de verbas rescisórias, horas extras, adicionais de insalubridade/periculosidade e indenizações.",
-        icon: "Scale", // Coherent icon for legal action
+          "Assessoria completa em elaboração e revisão de contratos, responsabilidade civil, indenizações e disputas diversas, garantindo seus direitos.",
+        icon: "ClipboardList", // Lucide-react icon
       },
       {
-        title: "Assessoria Jurídica Empresarial Trabalhista",
+        title: "Direito de Família e Sucessões",
         description:
-          "Consultoria para empresas em conformidade com a legislação trabalhista, elaboração de contratos, regimentos internos e prevenção de passivos.",
-        icon: "Briefcase", // Coherent icon for business
+          "Oriento em processos de divórcio, guarda, pensão alimentícia, inventários e planejamento sucessório, com a sensibilidade e atenção que o tema exige.",
+        icon: "HeartHandshake", // Lucide-react icon
       },
       {
-        title: "Acordos e Negociações Coletivas",
+        title: "Direito do Consumidor",
         description:
-          "Mediação e representação em negociações com sindicatos, dissídios coletivos e elaboração de convenções e acordos coletivos de trabalho.",
-        icon: "Users", // Coherent icon for groups/collective
+          "Defesa dos direitos do consumidor em situações de produtos defeituosos, serviços não prestados, cobranças indevidas e abusos praticados por fornecedores.",
+        icon: "ShoppingBag", // Lucide-react icon
       },
       {
-        title: "Defesa em Processos Administrativos e Judiciais",
+        title: "Assessoria para PMEs",
         description:
-          "Atuação em defesa de empresas e trabalhadores perante o Ministério Público do Trabalho, Superintendências Regionais do Trabalho e Emprego, e na Justiça do Trabalho.",
-        icon: "FileText", // Coherent icon for documents/process
+          "Suporte jurídico especializado para pequenas e médias empresas, desde a constituição, revisão de contratos comerciais até questões de conformidade legal.",
+        icon: "Briefcase", // Lucide-react icon
       },
     ],
   },
   whyChooseUs: {
-    badge: "Por Que Nos Escolher",
-    // profileType: empresa, businessArea: advocacia, differential: trabalhamos APENAS com direito trabalhista
-    title: "Sua Escolha Estratégica em Direito Trabalhista",
+    badge: "Por Que Me Escolher", // Personalized tone
+    title: "Minha Abordagem Jurídica Confiável", // Personalized tone
     description:
-      "Nosso compromisso com a excelência, a integridade e o sucesso dos nossos clientes é a base de tudo o que fazemos. Especializados APENAS em direito trabalhista, oferecemos uma representação focada e um atendimento que faz a diferença.",
+      "Meu compromisso com a ética, a transparência e a excelência é o fundamento de cada caso que represento. Sua tranquilidade é minha prioridade.", // Personalized tone
     values: [
       {
-        title: "Foco Exclusivo",
+        title: "Agilidade e Eficiência", // Integrating differential
         description:
-          "Especialização total em direito trabalhista, garantindo conhecimento aprofundado e as melhores estratégias para o seu caso.",
+          "Foco na resolução rápida e eficaz das suas demandas jurídicas, otimizando o tempo e minimizando o estresse.",
+        icon: "Lightning", // Lucide-react icon
       },
       {
-        title: "Abordagem Personalizada",
+        title: "Atendimento Personalizado",
         description:
-          "Cada caso é único. Desenvolvemos estratégias jurídicas sob medida para as necessidades e objetivos específicos de cada cliente, seja empresa ou trabalhador.",
+          "Cada cliente e caso são únicos. Ofereço atenção individualizada, entendendo profundamente suas necessidades e objetivos.",
+        icon: "Users", // Lucide-react icon
       },
       {
-        title: "Equipe Altamente Qualificada",
+        title: "Experiência e Conhecimento",
         description:
-          "Nossos advogados possuem vasta experiência e atualização constante nas nuances da legislação trabalhista.",
+          "Minha experiência e atualização constante garantem um aconselhamento jurídico sólido e a mais alta qualidade de representação.",
+        icon: "Scale", // Lucide-react icon
       },
       {
         title: "Comunicação Transparente",
         description:
-          "Mantemos nossos clientes informados sobre cada etapa do processo, com clareza e honestidade em todas as comunicações.",
+          "Mantenho você sempre informado(a), com comunicação clara e honesta em todas as etapas do processo jurídico.",
+        icon: "MessageCircle", // Lucide-react icon
       },
     ],
   },
   process: {
-    badge: "Nosso Processo",
-    title: "Como Trabalhamos",
+    badge: "Meu Processo", // Personalized tone
+    title: "Como Trabalho", // Personalized tone
     description:
-      "Uma abordagem estruturada e meticulosa para alcançar seus objetivos jurídicos com clareza, eficiência e resultados excepcionais em todas as questões trabalhistas.",
+      "Uma abordagem estruturada e focada para alcançar seus objetivos jurídicos com clareza, eficiência e resultados excepcionais.", // Personalized tone
     steps: [
       {
         number: "01",
         title: "Consulta Inicial",
         description:
-          "Consulta abrangente para entender suas necessidades jurídicas trabalhistas e objetivos.",
+          "Uma conversa abrangente para entender suas necessidades jurídicas e estabelecer os primeiros passos.",
       },
       {
         number: "02",
-        title: "Análise do Caso",
+        title: "Análise e Estratégia",
         description:
-          "Pesquisa e análise minuciosas para desenvolver uma estratégia trabalhista adaptada à sua situação.",
+          "Pesquisa e análise minuciosas para desenvolver a estratégia jurídica mais adequada ao seu caso.",
       },
       {
         number: "03",
-        title: "Estratégia Jurídica",
+        title: "Apresentação da Solução",
         description:
-          "Desenvolvimento e apresentação de estratégia clara com caminho e resultados esperados para o seu caso trabalhista.",
+          "Desenvolvimento e apresentação de uma estratégia clara, com os caminhos e resultados esperados.",
       },
       {
         number: "04",
-        title: "Representação",
+        title: "Representação e Acompanhamento",
         description:
-          "Representação dedicada durante todo o processo trabalhista, mantendo você informado em cada etapa.",
+          "Representação dedicada durante todo o processo, mantendo você informado(a) em cada etapa até a resolução.",
       },
     ],
   },
   consultation: {
     image: {
-      // Reuse PHOTO URL for consistency
-      src: "https://nulttixasqcrugsbpduk.supabase.co/storage/v1/object/public/fotos/1766096924294-30wkg2.svg",
-      alt: "Consulta jurídica trabalhista profissional",
+      src: "https://www.psicologodiegovigato.com.br/01.png", // Mapped from PHOTO URL
+      alt: "Advogado Advogancio Mataeleao em consulta",
       overlay: {
-        badge: "Consulta Especializada",
-        // Adapted title
-        title: "Sua jornada no Direito Trabalhista começa aqui",
+        badge: "Consulta Profissional",
+        title: "Sua jornada jurídica começa comigo", // Personalized tone
       },
     },
-    badge: "Consulta Inicial",
-    // Adapted title and description
-    title: "Agende Sua Consulta Trabalhista",
+    badge: "Consulta Jurídica",
+    title: "Agende Sua Consulta",
     description:
-      "Uma consulta abrangente e confidencial para discutir sua situação jurídica trabalhista e definir o melhor caminho estratégico para o seu caso.",
+      "Uma consulta abrangente e confidencial para discutir sua situação jurídica e definir o melhor caminho estratégico para o seu caso. Priorizo a **agilidade no agendamento** para a sua conveniência.", // Personalized tone, integrating differential
     features: [
       {
-        title: "Consulta Inicial Gratuita",
-        description: "Primeiros 30 minutos sem custo",
-      },
-      {
         title: "Orientação Especializada",
-        description: "Orientação profissional de advogados experientes em direito do trabalho",
+        description: "Conselho profissional de um advogado experiente e dedicado.",
       },
       {
-        title: "Honorários Transparentes",
-        description: "Discussão clara de honorários e opções de pagamento",
+        title: "Agendamento Facilitado", // Integrating differential
+        description: "Rapidez e flexibilidade para marcar seu horário.",
+      },
+      {
+        title: "Transparência de Honorários",
+        description: "Discussão clara de custos e opções de pagamento desde o início.",
       },
     ],
     button: {
       label: "Agendar Consulta",
       href: "#contato",
-      icon: "Calendar",
+      icon: "Calendar", // Lucide-react icon
     },
   },
   blog: {
-    badge: "Insights Trabalhistas",
-    // Adapted title
-    title: "Artigos e Notícias sobre Direito do Trabalho",
+    badge: "Insights Jurídicos",
+    title: "Últimas Atualizações",
     button: {
       label: "Ver Tudo",
       href: "#blog",
     },
     posts: [
-      // Invented 3 realistic blog post titles for "Direito Trabalhista"
       {
-        date: "10 de Março, 2024",
-        title: "Novas Regras sobre Home Office e Seus Impactos Legais",
-        category: "Direito Trabalhista",
+        date: "29 de Janeiro, 2024",
+        title: "O que você precisa saber sobre a Nova Lei de Proteção de Dados (LGPD)",
+        category: "Direito Digital",
       },
       {
-        date: "05 de Março, 2024",
-        title: "Direitos do Trabalhador: O que Mudou na Reforma Trabalhista?",
-        category: "Reforma Trabalhista",
+        date: "26 de Janeiro, 2024",
+        title: "Guia Completo para Acordos de Divórcio Amigável no Brasil",
+        category: "Direito de Família",
       },
       {
-        date: "28 de Fevereiro, 2024",
-        title: "Despedida Sem Justa Causa: O que o Empregado Precisa Saber",
-        category: "Direitos do Empregado",
+        date: "22 de Janeiro, 2024",
+        title: "Direitos do Consumidor: Como agir em caso de produtos com defeito",
+        category: "Direito do Consumidor",
       },
     ],
   },
   faq: {
     badge: "Perguntas Frequentes",
-    // Adapted title and description
-    title: "Dúvidas Comuns em Direito Trabalhista",
+    title: "Dúvidas Comuns Respondidas",
     description:
-      "Encontre respostas para as perguntas mais frequentes sobre nossos serviços jurídicos especializados em Direito do Trabalho, nossos processos e como podemos ajudá-lo a alcançar seus objetivos.",
+      "Encontre respostas para as perguntas mais frequentes sobre meus serviços jurídicos, processos e como posso ajudá-lo(a) de forma **ágil e eficiente**.", // Personalized tone, integrating differential
     items: [
-      // Generated 4 relevant questions and answers for "Direito Trabalhista"
       {
-        question: "Quais são os principais direitos do trabalhador que vocês defendem?",
+        question: "Qual o seu principal diferencial como advogado?",
         answer:
-          "Defendemos direitos como horas extras, adicional noturno, insalubridade, periculosidade, verbas rescisórias (férias, 13º, FGTS), equiparação salarial, reintegração e indenizações por assédio ou acidente de trabalho, entre outros.",
+          "Meu principal diferencial é a **agilidade no atendimento**. Prezo por respostas rápidas, processos eficientes e soluções que atendam às necessidades de tempo dos meus clientes, sem perder a qualidade.",
       },
       {
-        question: "Como funciona o cálculo de verbas rescisórias em caso de demissão?",
+        question: "Em quais áreas do direito você atua?",
         answer:
-          "Realizamos o cálculo detalhado de todas as verbas, incluindo saldo de salário, aviso prévio, férias proporcionais e vencidas, 13º salário proporcional, FGTS e multa de 40%, garantindo que todos os valores devidos sejam corretamente reivindicados.",
+          "Atuo predominantemente em Direito Civil e Contratual, Direito de Família e Sucessões, Direito do Consumidor e assessoria jurídica para pequenas e médias empresas.",
       },
       {
-        question: "Minha empresa pode ser processada por assédio moral? Como evitar?",
+        question: "Como funciona a primeira consulta e qual o custo?",
         answer:
-          "Sim, empresas podem ser responsabilizadas por assédio moral. Oferecemos consultoria para implementar políticas internas de prevenção, treinamentos e canais de denúncia, minimizando riscos e promovendo um ambiente de trabalho saudável.",
+          "A primeira consulta serve para entender a fundo o seu caso. Ela pode ser agendada de forma **ágil** e os honorários são discutidos com total transparência desde o início, podendo haver uma cortesia para a análise inicial.",
       },
       {
-        question: "Qual o prazo para entrar com uma ação trabalhista após a rescisão do contrato?",
+        question: "Como você mantém seus clientes informados sobre o progresso do caso?",
         answer:
-          "O prazo prescricional para o trabalhador ingressar com uma ação trabalhista é de até 2 anos após o término do contrato de trabalho, reivindicando direitos dos últimos 5 anos de vínculo empregatício.",
+          "A comunicação é fundamental. Mantenho meus clientes constantemente atualizados sobre o andamento do processo por meio de e-mail, telefone e reuniões periódicas, sempre de forma clara e acessível.",
       },
     ],
   },
   footer: {
     logo: {
-      // businessName: "Advogados bons"
       letter: "A",
-      text: "Advogados Bons",
+      text: "Advogacio",
     },
-    // profileType: empresa, businessArea: advocacia, differential: trabalhamos APENAS com direito trabalhista
     description:
-      "Serviços jurídicos excepcionais com integridade e dedicação ao sucesso do cliente, exclusivamente na área do Direito Trabalhista.",
+      "Oferecendo serviços jurídicos excepcionais com integridade e dedicação ao sucesso do cliente.", // Personalized tone
     contact: {
-      // phoneContact: "1198888-7777" from JSON
-      phone: "(11) 98888-7777",
-      // Generated placeholder email
-      email: "contato@advogadosbons.com.br",
-      // whatsappLink for direct contact (assuming Brazil +55)
-      whatsappLink: "https://wa.me/5511988887777",
+      phone: "(11) 98765-4321", // Generated plausible phone number
+      email: "contato@advoganciomataeleao.com.br", // Generated plausible email
+      whatsapp: "5511987654321", // WhatsApp format
     },
     quickLinks: {
       title: "Links Rápidos",
@@ -305,8 +283,7 @@ export const siteConfig = {
         },
       ],
     },
-    // businessName: "Advogados bons"
-    copyright: "© 2024 Advogados Bons. Todos os direitos reservados.",
+    copyright: "© 2024 Advogancio Mataeleao. Todos os direitos reservados.", // Updated copyright name
     legalLinks: [
       {
         label: "Política de Privacidade",
